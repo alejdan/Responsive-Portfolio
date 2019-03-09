@@ -65,7 +65,7 @@ h3 {
 
 #logo {
   float: left;
-  width: 250px;
+  width: 350px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
@@ -214,4 +214,44 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+@media only screen and (max-width: 980px){
+  p {
+    clear:both;
+  }
+  .auth-image {
+    width: 200px;
+    height: 300px;
+  }
+  .work {
+    clear:both;
+    width: 70%;
+    margin-left: 80px;
+  }
+  .work h3 {
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 760px){
+  p {
+    clear:both;
+  }
+  .auth-image {
+    width: 200px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 640px){
+    p {
+      clear:both;
+    }
+    .auth-image {
+      width: 200px;
+      height: 300px;
+    }
+    .work {
+      clear:both;
+      width: 100%;
+    }
 }
